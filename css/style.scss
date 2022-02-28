@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap");
 
 /* Andy Bell’s Modern CSS Reset */
 
@@ -68,8 +68,8 @@ select {
 }
 
 /*colors*/
-
-$VeryDarkSBlue: #191826;
+$BgColor: #fcfaf9;
+$VeryDarkBlue: #191826;
 $VeryLightGray: #fcfaf9;
 $SoftRed: #fa7453;
 $Aquamarine: #66e2dc;
@@ -79,10 +79,70 @@ $LightOrange: #ffb964;
 
 /*fonts*/
 
-$IBMPlexSans: 'IBM Plex Sans', sans-serif; 
-
+$IBMPlexSans: "IBM Plex Sans", sans-serif;
 
 html {
   font-size: 16px;
   font-family: $IBMPlexSans;
+}
+
+.container {
+  max-width: 375px;
+  margin: 0 auto;
+  background-image: url("../assets/bg-main-mobile.png");
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: $BgColor;
+}
+
+.header {
+  margin-bottom: 4.25rem;
+  color: $VeryDarkBlue;
+  padding: 0 1.5rem;
+}
+
+.header__logo {
+  margin-bottom: 4rem;
+  padding-top: 2.5rem;
+}
+
+.header__text {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: -0.4545454680919647px;
+  text-align: left;
+}
+
+.header_description {
+  font-size: 16px;
+  line-height: 162%;
+  margin-top: 1.25rem;
+}
+
+.main-illustration {
+  display: flex;
+}
+
+.main-illustration__bg {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 0.05rem 3rem;
+  background-color: $VeryDarkBlue;
+  background-position: center;
+  margin: 6rem 0 0 0;
+}
+.main-illustration__img {
+  max-width: 208.97px;
+  max-height: 430px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center center;
+  z-index: 1;
+  margin-left: -18rem;
+}
+
+.premium {
+  margin-top: 10rem;
 }
