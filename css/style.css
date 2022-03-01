@@ -138,8 +138,8 @@ main {
 }
 
 .main-illustration__img {
-  max-width: 208.97px;
-  max-height: 430px;
+  max-width: 13.06rem;
+  max-height: 26.875rem;
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center center;
@@ -232,7 +232,7 @@ main {
 }
 
 .button__download img {
-  padding-right: .49rem;
+  padding-right: 0.49rem;
 }
 
 .button__download__text {
@@ -253,5 +253,45 @@ main {
   color: #191826;
   background-color: #fcfaf9;
   margin-bottom: 3rem;
+}
+
+.footer {
+  padding: 0 1.5rem;
+}
+
+.footer__logo {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+.footer__text {
+  max-width: 20.4rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.footer__adress address,
+a {
+  text-decoration: none;
+  all: initial;
+  font-weight: 700;
+  color: inherit;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+.footer__social-media {
+  margin-top: 4rem;
+  padding-bottom: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__social-media img {
+  padding-right: 1.125rem;
 }
 /*# sourceMappingURL=style.css.map */

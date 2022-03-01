@@ -141,8 +141,8 @@ main {
 }
 
 .main-illustration__img {
-  max-width: 208.97px;
-  max-height: 430px;
+  max-width: 13.06rem;
+  max-height: 26.875rem;
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center center;
@@ -200,12 +200,12 @@ main {
   }
 }
 
-.premiuim__download{
-  margin:0 auto;
+.premiuim__download {
+  margin: 0 auto;
   display: flex;
-flex-direction: column;
+  flex-direction: column;
 }
-.button__download{
+.button__download {
   height: 3.8rem;
   display: flex;
   justify-content: center;
@@ -214,30 +214,67 @@ flex-direction: column;
   -webkit-border-radius: 12px;
   -moz-border-radius: 12px;
   -ms-border-radius: 12px;
-  -o-border-radius: 12px; 
+  -o-border-radius: 12px;
   border: none;
 }
 
 .button__download img {
-  padding-right: .49rem;
+  padding-right: 0.49rem;
 }
 
-.button__download__text{
-font-size: 1.125rem;
-font-style: normal;
-font-weight: 700;
-line-height: 32px;
-letter-spacing: -0.18px;
+.button__download__text {
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.18px;
 }
 
-.button__ios{
+.button__ios {
   background-color: $VeryDarkBlue;
   color: $VeryLightGray;
   margin-bottom: 1rem;
 }
 
-.button__android{
- color: $VeryDarkBlue;
+.button__android {
+  color: $VeryDarkBlue;
   background-color: $VeryLightGray;
   margin-bottom: 3rem;
+}
+
+.footer {
+  padding: 0 1.5rem;
+}
+
+.footer__logo {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+.footer__text {
+  max-width: 20.4rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.footer__adress address,
+a {
+  text-decoration: none;
+  all: initial;
+  font-weight: 700;
+  color: inherit;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+.footer__social-media {
+  margin-top: 4rem;
+  padding-bottom: 5rem;
+  display: flex;
+  & img {
+    padding-right: 1.125rem;
+  }
 }
