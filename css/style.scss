@@ -90,8 +90,8 @@ html {
   max-width: 375px;
   margin: 0 auto;
   background-image: url("../assets/bg-main-mobile.png");
-  background-position: top right;
   background-repeat: no-repeat;
+  background-position: top right;
   background-size: 100%;
   background-color: $BgColor;
 }
@@ -121,6 +121,11 @@ html {
   margin-top: 1.25rem;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+}
+
 .main-illustration {
   display: flex;
 }
@@ -132,7 +137,9 @@ html {
   background-color: $VeryDarkBlue;
   background-position: center;
   margin: 6rem 0 0 0;
+  border-radius: 12px;
 }
+
 .main-illustration__img {
   max-width: 208.97px;
   max-height: 430px;
@@ -144,5 +151,93 @@ html {
 }
 
 .premium {
-  margin-top: 10rem;
+  padding: 0 2.25rem;
+  margin-top: -2rem;
+  background-color: $SoftRed;
+  color: $VeryLightGray;
+  z-index: 3;
+  border-radius: 12px;
+}
+
+.premium__title {
+  font-size: clamp(2rem, 2.5vw, 2.5rem);
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0px;
+  text-align: left;
+  padding-top: 3rem;
+  padding-bottom: 0.75rem;
+}
+
+.premium__description {
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  max-width: 18.8rem;
+  padding-bottom: 2.25rem;
+}
+
+.premium__price {
+  display: flex;
+  align-items: center;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-bottom: 2rem;
+
+  &::after {
+    content: "/ month";
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.20000000298023224px;
+    padding-left: 1rem;
+  }
+}
+
+.premiuim__download{
+  margin:0 auto;
+  display: flex;
+flex-direction: column;
+}
+.button__download{
+  height: 3.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px; 
+  border: none;
+}
+
+.button__download img {
+  padding-right: .49rem;
+}
+
+.button__download__text{
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: -0.18px;
+}
+
+.button__ios{
+  background-color: $VeryDarkBlue;
+  color: $VeryLightGray;
+  margin-bottom: 1rem;
+}
+
+.button__android{
+ color: $VeryDarkBlue;
+  background-color: $VeryLightGray;
+  margin-bottom: 3rem;
 }
