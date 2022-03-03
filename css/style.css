@@ -249,10 +249,30 @@ main {
   margin-bottom: 1rem;
 }
 
+.button__ios:hover {
+  -webkit-box-shadow: inset 19rem 0 0 0 #66e2dc;
+          box-shadow: inset 19rem 0 0 0 #66e2dc;
+  transition: 0.25s;
+  -webkit-transition: 0.25s;
+  -moz-transition: 0.25s;
+  -ms-transition: 0.25s;
+  -o-transition: 0.25s;
+}
+
 .button__android {
   color: #191826;
   background-color: #fcfaf9;
   margin-bottom: 3rem;
+}
+
+.button__android:hover {
+  -webkit-box-shadow: inset 19rem 0 0 0 #ffb964;
+          box-shadow: inset 19rem 0 0 0 #ffb964;
+  transition: 0.25s;
+  -webkit-transition: 0.25s;
+  -moz-transition: 0.25s;
+  -ms-transition: 0.25s;
+  -o-transition: 0.25s;
 }
 
 .footer {

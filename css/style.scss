@@ -68,13 +68,11 @@ select {
 }
 
 /*colors*/
-$BgColor: #fcfaf9;
 $VeryDarkBlue: #191826;
 $VeryLightGray: #fcfaf9;
 $SoftRed: #fa7453;
 $Aquamarine: #66e2dc;
 $Turquoise: #40fff6;
-$Orange: #ff9201;
 $LightOrange: #ffb964;
 
 /*fonts*/
@@ -93,7 +91,7 @@ html {
   background-repeat: no-repeat;
   background-position: 30px -250px;
   background-size: 140%;
-  background-color: $BgColor;
+  background-color: $VeryLightGray;
 }
 
 .header {
@@ -234,12 +232,30 @@ main {
   background-color: $VeryDarkBlue;
   color: $VeryLightGray;
   margin-bottom: 1rem;
+
+  &:hover {
+    box-shadow: inset 19rem 0 0 0 $Aquamarine;
+    transition: 0.25s;
+    -webkit-transition: 0.25s;
+    -moz-transition: 0.25s;
+    -ms-transition: 0.25s;
+    -o-transition: 0.25s;
+  }
 }
 
 .button__android {
   color: $VeryDarkBlue;
   background-color: $VeryLightGray;
   margin-bottom: 3rem;
+
+  &:hover {
+    box-shadow: inset 19rem 0 0 0 $LightOrange;
+    transition: 0.25s;
+    -webkit-transition: 0.25s;
+    -moz-transition: 0.25s;
+    -ms-transition: 0.25s;
+    -o-transition: 0.25s;
+  }
 }
 
 .footer {
