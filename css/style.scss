@@ -278,3 +278,38 @@ a {
     padding-right: 1.125rem;
   }
 }
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    margin: 0 auto;
+    background-image: url("../assets/bg-main-desktop.png");
+    background-repeat: no-repeat;
+    background-position: -330px -170px;
+    background-size: 170%;
+  }
+
+  .header {
+    background-image: url("../assets/bg-pattern-1.svg");
+    background-repeat: no-repeat;
+    background-position: 32.6em -2rem;
+    background-size: 37%;
+    padding: 0 2.4375rem;
+  }
+
+  .header__logo {
+    margin-bottom: 5.9rem;
+    padding-top: 3.87rem;
+  }
+
+  .header__title {
+    max-width: 32.5rem;
+    font-size: 4rem;
+  }
+
+  .header_description {
+    max-width: 32.125rem;
+    font-size: 1.125rem;
+    margin-top: 1.75rem;
+  }
+}
