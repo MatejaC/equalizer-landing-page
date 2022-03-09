@@ -339,7 +339,7 @@ a {
     margin: 0rem 2.4rem 0rem 2rem;
     background-repeat: no-repeat;
   }
-  
+
   .main-illustration__bg img {
     margin: -2.8rem 0rem 0rem 13.5rem;
     overflow: hidden;
@@ -362,5 +362,21 @@ a {
     margin: -12rem 0 0 17rem;
     padding: 0 3rem;
     max-width: 24.95rem;
+  }
+
+  .footer__text {
+    max-width: 22.875rem;
+    display: inline-block;
+  }
+
+  .footer__adress {
+    display: inline-block;
+    margin-left: -17.8rem;
+  }
+
+  .footer__social-media {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: -3rem;
   }
 }

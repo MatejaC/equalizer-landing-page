@@ -379,5 +379,23 @@ a {
     padding: 0 3rem;
     max-width: 24.95rem;
   }
+  .footer__text {
+    max-width: 22.875rem;
+    display: inline-block;
+  }
+  .footer__adress {
+    display: inline-block;
+    margin-left: -17.8rem;
+  }
+  .footer__social-media {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    margin-top: -3rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */
