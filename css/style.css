@@ -77,7 +77,6 @@ html {
 }
 
 .container {
-  max-width: 375px;
   margin: 0 auto;
   background-image: url("../assets/bg-main-mobile.png");
   background-repeat: no-repeat;
@@ -317,7 +316,6 @@ a {
 
 @media (min-width: 768px) {
   .container {
-    max-width: 768px;
     margin: 0 auto;
     background-image: url("../assets/bg-main-tablet.png");
     background-repeat: no-repeat;
