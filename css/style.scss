@@ -319,12 +319,12 @@ a {
 
   .header__title {
     max-width: 32.5rem;
-    font-size: 4rem;
+    font-size: clamp(4rem, 5.6vw, 5.55rem);
   }
 
   .header_description {
     max-width: 32.125rem;
-    font-size: 1.125rem;
+    font-size: clamp(1.125rem, 2.5vw, 1.25rem);
     margin-top: 1.75rem;
   }
 
@@ -377,4 +377,38 @@ a {
     flex-direction: row-reverse;
     margin-top: -3rem;
   }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+    background-image: url("../assets/bg-main-desktop.png");
+    background-repeat: no-repeat;
+    background-position: -400px -300px;
+    background-size: 150%;
+  }
+
+  .header {
+    background-position: 60.55rem -2rem;
+    background-repeat: no-repeat;
+    background-size: 24%;
+    margin-left: 10.3125rem;
+    padding: unset;
+  }
+
+  .header__logo {
+    margin-bottom: 7.9rem;
+  }
+
+  .header__title {
+    max-width: 63.4rem;
+  }
+
+  .header_description {
+    max-width: 51.56rem;
+    margin-top: 2.5rem;
+    line-height: 34px;
+  }
+
 }
