@@ -157,7 +157,7 @@ main {
 }
 
 .premium__title {
-  font-size: clamp(2rem, 2.5vw, 2.5rem);
+  font-size: clamp(2rem, 5vw, 2.5rem);
   font-weight: 700;
   line-height: 40px;
   letter-spacing: 0px;
@@ -202,6 +202,7 @@ main {
   display: flex;
   flex-direction: column;
 }
+
 .button__download {
   height: 3.8rem;
   display: flex;
@@ -395,6 +396,7 @@ a {
     background-size: 24%;
     margin-left: 10.3125rem;
     padding: unset;
+    margin-bottom: 20rem;
   }
 
   .header__logo {
@@ -411,4 +413,67 @@ a {
     line-height: 34px;
   }
 
+  main {
+    margin-left: 10.3125rem;
+    margin-right: 10.3125rem;
+  }
+
+  .main-illustration__bg {
+    margin: 0;
+    max-width: 69.375rem;
+    max-height: 37rem;
+  }
+
+  .main-illustration__bg img {
+    margin: -1.2rem 0rem 0rem 21.2rem;
+    overflow: hidden;
+    width: 27%;
+  }
+
+  .main-illustration__img {
+    grid-column: 1 / 2;
+    grid-row: 1 / -1;
+    margin-left: 6.375rem;
+    margin-top: -13rem;
+    max-width: 19.5rem;
+    max-height: 37.875rem;
+    z-index: 1;
+  }
+
+  .premium {
+    grid-column: 2 / 3;
+    grid-row: 2 / -1;
+    z-index: 2;
+    margin: -14.65rem 0 0 0.5rem;
+    padding: 0 3.375rem;
+    max-width: 27.875rem;
+    max-height: 39.5rem;
+  }
+
+  .premium__title {
+    padding-top: 3.625rem;
+    padding-bottom: 1.35rem;
+  }
+
+  .premium__description {
+    padding-bottom: 2.4375rem;
+    max-width: 20.8125rem;
+    font-size: 1.25rem;
+  }
+
+  .premium__price {
+    margin-bottom: 3rem;
+  }
+
+  .button__ios {
+    &:hover {
+      box-shadow: inset 22rem 0 0 0 $Aquamarine;
+    }
+  }
+
+  .button__android {
+    &:hover {
+      box-shadow: inset 22rem 0 0 0 $LightOrange;
+    }
+  }
 }
