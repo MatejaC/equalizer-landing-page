@@ -319,7 +319,7 @@ a {
     margin: 0 auto;
     background-image: url("../assets/bg-main-tablet.png");
     background-repeat: no-repeat;
-    background-position: -360px -190px;
+    background-position: top -200px right -150px;
     background-size: 170%;
   }
   .header {
@@ -403,7 +403,7 @@ a {
     margin: 0 auto;
     background-image: url("../assets/bg-main-desktop.png");
     background-repeat: no-repeat;
-    background-position: -400px -300px;
+    background-position: top -250px right -250px;
     background-size: 150%;
   }
   .header {
